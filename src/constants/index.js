@@ -13,7 +13,6 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
   meta,
   starbucks,
@@ -23,6 +22,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  laravel,
+  arcade,
+  studio,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +48,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Java Developer",
     icon: mobile,
   },
   {
@@ -54,7 +56,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Wordpress Developer",
     icon: creator,
   },
 ];
@@ -105,68 +107,69 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "laravel",
+    icon: laravel,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Backend Intern Web Developer",
+    company_name: "CV Cipta Adhi Nugraha Creative",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained a voting app for a Car Community in Semarang, facilitating leader elections.",
+      "Created a robust API for a store management application to streamline operations.",
+      "Redesigned a nail art website to enhance user experience and aesthetic appeal.",
+      "Built a comprehensive travel agency website to improve customer engagement and booking processes.",
+      "Designed a bus travel app to optimize route planning and ticketing.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Developing Arcade Games Website",
+    company_name: "Access Point Arcade",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sep 2023 - Feb 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained an arcade game website using WordPress to sell and promote arcade games.",
+      "Collaborated with cross-functional teams including designers and product managers to create a high-quality e-commerce experience.",
+      "Implemented a shop feature on the website to enable customers to purchase products easily.",
+      "Continually optimized and maintained the website for performance and usability.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Developing Photo Studio Website",
+    company_name: "Photobar Indonesia",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained a highly aesthetic photo studio website focused on showcasing the studio's work.",
+      "Collaborated with cross-functional teams including designers and product managers to create a visually appealing and user-friendly platform.",
+      "Integrated an appointment booking system for user convenience.",
+      "Ensured responsive design and cross-browser compatibility to enhance user experience.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Freelance Web Developer",
+  //   company_name: "",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -198,46 +201,46 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Photo Studio Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web-based platform for photographers and clients to connect. Users can browse portfolios, book sessions, and manage appointments easily, offering a seamless solution for photography services.",
     tags: [
       {
-        name: "react",
+        name: "wordpress",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "freelance",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "aesthetics",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: studio,
+    source_code_link: "https://photobarindonesia.com",
   },
   {
-    name: "Job IT",
+    name: "Arcade Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A user-friendly platform for buying arcade machines and gaming accessories. Explore products, read descriptions, and make secure purchases easily. Perfect for arcade enthusiasts and businesses.",
     tags: [
       {
-        name: "react",
+        name: "wordpress",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "games",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "arcade",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: arcade,
+    source_code_link: "https://accesspointarcade.com",
   },
   {
     name: "Trip Guide",
